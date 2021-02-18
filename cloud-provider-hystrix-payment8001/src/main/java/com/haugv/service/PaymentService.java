@@ -10,11 +10,6 @@ import java.util.concurrent.TimeUnit;
 public class PaymentService {
 
     public String paymentOK(Integer id){
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         return "线程池："+Thread.currentThread().getName()+" paymentOK,id:"+id;
     }
 
