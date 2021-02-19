@@ -1,0 +1,4 @@
+com\haugv\controller\SendMessageController.class
+com\haugv\service\IMessageProvider.class
+com\haugv\StreamRabbitMQ8801Application.class
+com\haugv\service\impl\MessageProviderImpl.class

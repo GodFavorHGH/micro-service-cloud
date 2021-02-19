@@ -27,4 +27,9 @@ public class PaymentController {
         return port + paymentService.paymentTimeout(id);
     }
 
+
+    @GetMapping("/payment/curcuit/{id}")
+    public String paymentCircuitBreak(@PathVariable("id") Integer id){
+        return port + paymentService.paymentCircuitBreaker(id);
+    }
 }

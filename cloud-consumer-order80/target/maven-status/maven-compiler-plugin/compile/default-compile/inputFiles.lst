@@ -1,0 +1,10 @@
+D:\spring-cloud-workspace\micro-service-cloud\cloud-consumer-order80\src\main\java\com\haugv\lb\CustomLoadBalancer.java
+D:\spring-cloud-workspace\micro-service-cloud\cloud-consumer-order80\src\main\java\com\haugv\Order80Application.java
+D:\spring-cloud-workspace\micro-service-cloud\cloud-consumer-order80\src\main\java\com\haugv\service\PaymentService.java
+D:\spring-cloud-workspace\micro-service-cloud\cloud-consumer-order80\src\main\java\com\haugv\lb\ICustomLoadBalancer.java
+D:\spring-cloud-workspace\micro-service-cloud\cloud-consumer-order80\src\main\java\com\haugv\service\impl\PaymentServiceImpl.java
+D:\spring-cloud-workspace\micro-service-cloud\cloud-consumer-order80\src\main\java\com\rule\CustomRibbonRule.java
+D:\spring-cloud-workspace\micro-service-cloud\cloud-consumer-order80\src\main\java\com\haugv\controller\OrderController.java
+D:\spring-cloud-workspace\micro-service-cloud\cloud-consumer-order80\src\main\java\com\haugv\dao\PaymentDao.java
+D:\spring-cloud-workspace\micro-service-cloud\cloud-consumer-order80\src\main\java\com\haugv\controller\PaymentController.java
+D:\spring-cloud-workspace\micro-service-cloud\cloud-consumer-order80\src\main\java\com\haugv\config\ApplicationContextConfig.java

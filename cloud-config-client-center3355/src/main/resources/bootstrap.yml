@@ -1,0 +1,29 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      name: config
+      profile: dev
+      uri: http://localhost:8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+  rabbitmq: #本地环境不需要配置mq，但是需要启动mq,Springboot会自动连接本地mq
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest

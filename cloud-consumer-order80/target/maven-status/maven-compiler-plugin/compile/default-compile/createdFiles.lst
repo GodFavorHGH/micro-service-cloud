@@ -1,0 +1,10 @@
+com\haugv\dao\PaymentDao.class
+com\haugv\lb\CustomLoadBalancer.class
+com\haugv\service\PaymentService.class
+com\haugv\controller\OrderController.class
+com\haugv\controller\PaymentController.class
+com\rule\CustomRibbonRule.class
+com\haugv\config\ApplicationContextConfig.class
+com\haugv\service\impl\PaymentServiceImpl.class
+com\haugv\lb\ICustomLoadBalancer.class
+com\haugv\Order80Application.class

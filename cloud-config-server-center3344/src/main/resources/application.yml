@@ -1,0 +1,31 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/GodFavorHGH/spring-cloud-config-server-center.git
+          search-paths:
+            - config
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
+  #本地环境不需要配置mq，但是需要启动mq,Springboot会自动连接本地mq
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
