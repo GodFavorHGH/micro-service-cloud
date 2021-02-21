@@ -1,0 +1,11 @@
+com\haugv\domain\Order.class
+com\haugv\SeataOrder2001Application.class
+com\haugv\service\feign\AccountService.class
+com\haugv\service\db\impl\OrderServiceImpl.class
+com\haugv\controller\OrderController.class
+com\haugv\mapper\OrderMapper.class
+com\haugv\config\DataSourceProxyConfig.class
+com\haugv\service\feign\StorageService.class
+com\haugv\service\db\OrderService.class
+com\haugv\common\CommonResult.class
+com\haugv\config\MybatisConfig.class

@@ -1,0 +1,6 @@
+com\haugv\mapper\StorageMapper.class
+com\haugv\SeataStorage2002Application.class
+com\haugv\service\db\impl\StorageServiceImpl.class
+com\haugv\service\db\StorageService.class
+com\haugv\controller\StorageController.class
+com\haugv\domain\Storage.class
